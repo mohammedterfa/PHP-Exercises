@@ -14,4 +14,18 @@
 
  student_info("Mohammed Terfa" , "V", 12);
 
+
+ function student_infoo(
+    $StudentName,
+    $classNum,
+    $Roll
+ ){
+    echo "the name of student : $StudentName <br>";
+    echo "His Class is : $classNum and Roll no: $Roll <br>";
+ }
+
+ student_infoo(
+    "Terfa Mohamed", "R" ,14
+ );
+
 ?>
