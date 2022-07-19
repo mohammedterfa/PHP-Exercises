@@ -14,7 +14,7 @@
 
  student_info("Mohammed Terfa" , "V", 12);
 
-
+// Advance whitespace insensitivity
  function student_infoo(
     $StudentName,
     $classNum,
