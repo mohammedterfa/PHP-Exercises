@@ -1,4 +1,3 @@
 <?php
-$current_file_name = basename($_SERVER['PHP_SELF']);
-echo $current_file_name."\n";
+echo "Your User Agent is :" . $_SERVER ['HTTP_USER_AGENT'];
 ?>
