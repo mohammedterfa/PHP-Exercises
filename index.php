@@ -1,7 +1,4 @@
 <?php
-$url = 'https://www.w3resource.com/php-exercises/php-basic-exercises.php';
-$url=parse_url($url);
-echo 'Scheme : '.$url['scheme']."\n";
-echo 'Host : '.$url['host']."\n";
-echo 'Path : '.$url['path']."\n";
-?>
+$text = 'PHP Tutorial';
+$text = preg_replace('/(\b[a-z])/i','<span style="color:red;">\1</span>',$text);
+echo $text;
