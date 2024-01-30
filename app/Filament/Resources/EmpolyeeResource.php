@@ -17,7 +17,8 @@ class EmpolyeeResource extends Resource
 {
     protected static ?string $model = Empolyee::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-user-group';
+    protected static ?string $navigationGroup = "Empolyee Management";
 
     public static function form(Form $form): Form
     {
